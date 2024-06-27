@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+section{
+    background: #FFFFFF;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 80px;
+   
+}
+
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    margin:  16px 0;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: 1177px 1fr;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#555555 ;
+    line-height: 28px;
+    max-width: 600px;
+}
+
+
+a{
+    color:#3771C8 ;
+    text-align: right;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.conteiner2{
+    border: 1px solid #F9D15C;
+    border-radius: 280px;
+    width: 109px;
+    height: 6px;
+    align-items: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 0 60px 0;
+    gap: 24px;
+}
+
+img{
+    margin: 36px 0 0 0;
+}
+.items{
+    background: #FFFFFF;
+    max-width: 308px;
+    text-align: center;
+    /* outline: 1px solid #E8E8E8; */
+    
+}
+
+.items h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin:42px 0 12px 0 ;
+    color: #222222;
+    line-height: 28px;
+}
+
+.items p{
+    color: #666666;
+    margin: 0;
+    max-width: 278px;
+}
+
+.About{
+    padding: 120px 0 0 0;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 628px 1fr;
+    margin: 0 auto;
+}
+.photo img{
+    max-width: 100%;
+    margin: 0 0;
+}
+
+.text1{
+    margin:0 0 0 60px;
+}
+.text1 h1{
+    color: #222222;
+    max-width: 405px;
+    margin: 0 0 16px 0;
+}
+
+.text1 p{
+    margin: 0 auto 20px 0;
+    
+}
+
+.title2{
+    text-align: center;
+    color: #222222;
+}
+
+.title2 h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    margin: 0 0 10px 0;
+}
+
+
+
+.title2 p{
+    margin: 0 0 60px 0;
+}
+
+.link{
+    margin: 0 0 58px 0;
+}
+
+.btn{
+background: #3771C8;
+padding: 16px 32px;
+border-radius: 8px;
+}
+
+.one{
+    padding: 0 0 40px 0;
+}
+
+.link a{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+   
+
+}
+
+.company{ 
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    max-width: 1110px;
+    margin:100px 0 0 0 ;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    max-width: 150px;
+
+}
+
+.logo img{
+    padding: 0px 90px;
+   
+}
+
